@@ -1,0 +1,71 @@
+html, body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px ;
+color: hsl(0, 0%, 95%);}
+
+.storage {
+    padding: 2rem 1rem;
+}
+@media (min-width: 1440px) {
+    .storage {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10rem 18rem;
+    }
+}
+    .column-1 {
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    .column-2 {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .column-3 {
+        background-color: hsl(179, 100%, 13%);
+    }
+
+    .container-1, .container-2, .container-3 {
+        padding: 3rem;
+    }
+    .header-1, .header-2, .header-3 {
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .text-1, .text-2, .text-3 {
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        font-size: 14px;
+    }
+    .button-1-container, .button-2-container, .button-3-container {
+        padding-top: 2rem;
+    }
+
+   .button-1, .button-2, .button-3 {
+       background-color: hsl(0, 0%, 95%);
+       border: hsl(0, 0%, 95%);
+       min-width: 160px;
+       padding: 1rem;
+       border-radius: 2rem;
+       font-family: 'Lexend Deca', sans-serif;
+       cursor: pointer;
+       border-style: solid;
+   }
+   .button-1:hover, .button-2:hover, .button-3:hover {
+       background-color: transparent ;
+       color: hsl(0, 0%, 95%); 
+       border: hsl(0, 0%, 95%);
+       border-color: hsl(0, 0%, 95%);
+       border-style: solid;
+
+   }
+
+   .button-1 {
+       color: hsl(31, 77%, 52%)
+   }
+   .button-2 {
+       color: hsl(184, 100%, 22%)
+   }
+   .button-3 {
+       color:  hsl(179, 100%, 13%)
+   }
